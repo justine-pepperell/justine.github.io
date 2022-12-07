@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="projects.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Web development Projects by Justine Pepperell</title>
+</head>
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="projects.html">Projects</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+<header>
+<h1> Web development projects</h1>
+</header>
+
+  <div class="project-grid">
+      <div class="card">
+        <!-- child element -->
+        <h2>Done app</h2>
+          <p>
+            To-do apps are a classic project when it comes to learning CRUD and new languages and frameworks.  
+            Recently, I’ve been building on AWS and completed an authenticated To-do app with React, AWS Amplify, Graphql, and S3 image storage.  As we race towards the end of 2022, 
+            I thought a Done App might be more empowering than an overflowing to-do app 
+            — so I hacked it a little bit for fun. 
+          </p>
+          <button>View</button>
+      </div>
+      <div class="card">
+        <!-- another child element -->
+        <h2>Static webpage</h2>
+          <p class="card-text">
+            This webpage was co-designed with the client who wanted a very simple, 
+            mobile-first scrollable site with an overview of their recent work, 
+            a contact form, and links to specific social media sites.  
+          </p>
+          
+         
+          <a href="https://martynpepperell.com" class="button-52">View</a>
+  
+      </div>
+  
+      <div class="card" >
+        <!-- etc -->
+        <h2> Find phonetic spelling</h2>
+          <p>
+            A very simple site build with React, 
+            javaScript, Html, and CSS that utilises 
+            an external API to allow users to find the phonetic spelling of a word.
+          </p>
+        <a href="https://master.d1imn1mmgbjtyx.amplifyapp.com/?fbclid=IwAR0nibUh81agRBSdRm3ir5mU43kLdlFPxzWujXoMkfXCmAreTzTj2J-6-_s" class="button-52">View</a>
+      </div>
+  </div>
+
+  <footer id="contact">
+    <ul class="cluster-footer">
+      <li class ="footer-text">Let's talk: (022) 0932475</li>
+      <li class ="footer-text">Email: justine.pepperell@gmail.com</li>
+    </ul>
+  </footer>
+
+</body>
+</html>
