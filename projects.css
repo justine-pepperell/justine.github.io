@@ -4,7 +4,7 @@
 
 body {
   margin: 0%;
-  background-color: white;
+  background-color: black;
     min-height: 100vh;
 }
 
@@ -120,7 +120,6 @@ h2 {
 
 footer {
   background-color: black;
-  border-bottom: 3px purple solid;
   border-top: 3px purple solid;
   margin-bottom: 0%;
   margin-top: 10em;
