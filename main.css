@@ -135,12 +135,8 @@ h1 {
 .aws-icon-box {
 background-color: ivory;
 display: flex;
-padding: 10em;
-
-}
-
-.aws-logo {
-  padding: 1em;
+padding: 5em;
+overflow:hidden;
 }
 
 
