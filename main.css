@@ -132,16 +132,15 @@ h1 {
   }
 }
 
-.icon
-{
-  padding: 25%;
-  background-color: black;
+.aws-icon-box {
+background-color: ivory;
+display: flex;
+padding: 10em;
+
 }
 
-.center {
-  box-sizing: content-box;
-  margin-inline: auto;
-  max-inline-size: var(--measure);
+.aws-logo {
+  padding: 1em;
 }
 
 
