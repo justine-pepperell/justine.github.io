@@ -68,8 +68,8 @@ body {
 header {
   background-color: purple;
   margin-bottom: 0%;
-  border-bottom: 3px gold solid;
-  border-top: 3px darkturquoise solid;
+  border-bottom: 3px peachpuff solid;
+  border-top: 3px peachpuff solid;
   margin-bottom: 2em;
 }
 
@@ -135,7 +135,7 @@ footer {
   align-items: center;
 }
 
-.footer-text{
+.footer-text {
   font-family:'Oswald', sans-serif;
   font-weight: 200;
   list-style: none;
