@@ -17,36 +17,35 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: rgb(0, 209, 209);
+  background-color: rgba(0, 206, 209, 0.535)
 }
 
 .topnav {
   overflow: hidden;
-  background-color: rgb(0, 209, 209);
+  background-color: rgba(0, 206, 209, 0.535)
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: black;
   text-align: center;
   padding: .5em;
   margin: 1em;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .topnav a:hover {
-  color: gold;
-}
-
-.topnav a.active {
-  background-color: rgb(255, 217, 0);
-  color: black;
-}
-
-.topnav .icon {
-  display: none;
-}
+  text-decoration: underline;
+ }
+ 
+ .topnav a.active {
+   text-decoration: underline;
+ }
+ 
+ .topnav .icon {
+   display: none;
+ }
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -115,7 +114,7 @@ p {
 }
 
 footer {
-  background-color: rgb(0, 209, 209);
+  background-color: rgba(0, 206, 209, 0.535);
   border-bottom: 1em purple solid;
   border-top: 3px purple solid;
 }
@@ -130,6 +129,6 @@ footer {
 
 .footer-text{
   list-style: none;
-  color: black;
+  font-weight: bold;
   font-family: 'Montserrat', sans-serif;
 }
