@@ -25,11 +25,8 @@ p {
 
 li {
   font-size: 1em;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300;
-  line-height: 1.5;
-  color: black;
-  padding: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-bottom: 1em;
 }
 
 
@@ -41,7 +38,6 @@ li {
 .topnav a {
   float: left;
   display: block;
-  color: black;
   text-align: center;
   padding: .5em;
   margin: 1em;
@@ -54,7 +50,6 @@ li {
 
 .topnav a.active {
   background-color: rgb(255, 217, 0);
-  color: black;
 }
 
 .topnav .icon {
@@ -91,7 +86,6 @@ header {
 }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
   color: ivory;
   line-height: 1.5em;
   padding-left: 1em;
@@ -124,26 +118,15 @@ h1 {
   }
 }
 
-.aws-icon-box {
-background-color: ivory;
-display: flex;
-padding: 5em;
-overflow:hidden;
-}
-
-
 h2 {
   line-height: 1.5em;
   margin-bottom: 1em;
-  font-family: 'Oswald', sans-serif;
 }
-
 
 .dev-logo {
   max-width: 50%;
   max-height: 50%;
 }
-
 
 .switcher {
   display: flex;
@@ -164,17 +147,19 @@ h2 {
 }
 
 .listitem {
- padding-bottom: 1em;
+ padding-bottom: 2em;
  text-indent: 1em;
  font-family: 'Source Sans Pro', sans-serif;
 
 }
 
 .list-background {
-  color: black;
-  font-weight: bold;
   background-color: rgb(255, 217, 0);
   padding-left: 1em;
+}
+
+li {
+  padding-bottom: 2em;
 }
 
 footer {
@@ -191,7 +176,8 @@ footer {
   align-items: center;
 }
 
-.footer-text{
+.footer-text {
   list-style: none;
   color: ivory;
+  font-family: 'Montserrat', sans-serif;
 }
