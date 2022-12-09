@@ -49,10 +49,7 @@ li {
 }
 
 .topnav a:hover {
-  color: black;
-  border-style: solid;
-  border-width: 2px;
-  border-color: gold;
+  color: gold;
 }
 
 .topnav a.active {
@@ -182,7 +179,7 @@ h2 {
 
 footer {
   background-color: darkturquoise;
-  border-bottom: 3px purple solid;
+  border-bottom: 1em purple solid;
   border-top: 3px purple solid;
 }
 
@@ -195,9 +192,6 @@ footer {
 }
 
 .footer-text{
-  font-family:'Oswald', sans-serif;
-  font-size: 1em; 
-  font-weight: 300;
   list-style: none;
   color: ivory;
 }
